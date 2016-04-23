@@ -30,17 +30,17 @@ namespace SoftwareConfigurationManagementDBApp
 
           _connectionstring =  ConfigurationManager.ConnectionStrings["SCMDatabaseConnectionString"].ConnectionString;
         }
-        public void OpenUserForm(User aUser, int AddUpdate)
+        public void OpenUserForm(User aUser, int AddUpdate, ViewUsers user = null)
         {
             if (AddUpdate == 1)
             {
                 aUser = null;
-                AddUser aUserForm = new AddUser(this, aUser, 1);
+                AddUser aUserForm = new AddUser(this, aUser, 1, user);
                 aUserForm.Show();
             }
             else
             {
-                AddUser aUserForm = new AddUser(this, aUser, 2);
+                AddUser aUserForm = new AddUser(this, aUser, 2, user);
                 aUserForm.Show();
             }
         }

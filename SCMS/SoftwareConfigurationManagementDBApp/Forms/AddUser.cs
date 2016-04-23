@@ -15,12 +15,14 @@ namespace SoftwareConfigurationManagementDBApp
         private UserControl mUserControl;
         private int mAddUpdate;
         private User mUser;
-        public AddUser(UserControl aControl, User aUser, int aAddUpdate)
+        private ViewUsers _UserForm;
+        public AddUser(UserControl aControl, User aUser, int aAddUpdate, ViewUsers UserForm)
         {
             InitializeComponent();
             mUserControl = aControl;
             mUser = aUser;
             mAddUpdate = aAddUpdate;
+            _UserForm = UserForm;
         }
 
         private void AddUser_Load(object sender, EventArgs e)
@@ -113,6 +115,7 @@ namespace SoftwareConfigurationManagementDBApp
                         {
                             MessageBox.Show("User has been added!", "Success!", MessageBoxButtons.OK);
                             this.Close();
+                           // _UserForm.Refresh();
                         }
                         else
                         {
@@ -129,7 +132,7 @@ namespace SoftwareConfigurationManagementDBApp
 
                         var obj = new User()
                         {
-                            User_ID = 1,
+                            User_ID = mUser.User_ID,
                             Fname = txtFname.Text.Trim(),
                             Lname = txtLname.Text.Trim(),
                             Username = txtUsername.Text.Trim(),
@@ -143,6 +146,7 @@ namespace SoftwareConfigurationManagementDBApp
                             MessageBox.Show("User has been updated!", "Success!", MessageBoxButtons.OK);
                             ViewUsers.ActiveForm.Close();
                             this.Close();
+                            _UserForm.RefreshGrid(sender, e);
                         }
                         else
                         {

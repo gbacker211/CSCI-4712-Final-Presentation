@@ -29,6 +29,7 @@ namespace SoftwareConfigurationManagementDBApp
             dataGridView1.Columns[2].HeaderText = "Username";
             dataGridView1.Columns[3].Visible = false;
             dataGridView1.Columns[4].HeaderText = "Access Group";
+            dataGridView1.Columns[5].Visible = false;
         }
 
         private void btnEditUser_Click(object sender, EventArgs e)
@@ -41,10 +42,12 @@ namespace SoftwareConfigurationManagementDBApp
                     Lname = dataGridView1.SelectedRows[0].Cells[1].Value.ToString(),
                     Username = dataGridView1.SelectedRows[0].Cells[2].Value.ToString(),
                     Password = dataGridView1.SelectedRows[0].Cells[3].Value.ToString(),
-                    AccessGroup = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[4].Value) // unsure about
+                    AccessGroup = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[4].Value),
+                    User_ID =   Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[5].Value) // unsure about
+                    
                 };
 
-                mUControl.OpenUserForm(obj, 2);
+                mUControl.OpenUserForm(obj, 2, this);
             }
             else
             {
@@ -67,6 +70,11 @@ namespace SoftwareConfigurationManagementDBApp
         private void btnEditUser_MouseLeave(object sender, EventArgs e)
         {
             btnEditUser.BackColor = Color.Empty;
+        }
+
+        public void RefreshGrid(object sender, EventArgs e)
+        {
+           ViewUsers_Load(sender, e);   
         }
 
     }

@@ -43,3 +43,26 @@ C:\Users\Geoff\Documents\Visual Studio 2013\Projects\SCMS\SoftwareConfigurationM
 C:\Users\Geoff\Documents\Visual Studio 2013\Projects\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.application
 C:\Users\Geoff\Documents\Visual Studio 2013\Projects\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.exe
 C:\Users\Geoff\Documents\Visual Studio 2013\Projects\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.pdb
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\bin\Debug\SoftwareConfigurationManagementDBApp.exe.config
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.exe
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.pdb
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SCMS.csprojResolveAssemblyReference.cache
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.AddUser.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.Attribute_s_.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.CIDoc.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.CIForm.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.DashBoard.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.LoginForm.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.Pathway.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.ViewAttributes.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.ViewUsers.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.Properties.Resources.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.SoftwareDocForm.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.SoftwareForm.resources
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SCMS.csproj.GenerateResource.Cache
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\bin\Debug\SoftwareConfigurationManagementDBApp.exe.manifest
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\bin\Debug\SoftwareConfigurationManagementDBApp.application
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\bin\Debug\SoftwareConfigurationManagementDBApp.exe
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\bin\Debug\SoftwareConfigurationManagementDBApp.pdb
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.exe.manifest
+C:\Users\Geoff\Documents\CSCI4712\CSCI-4712-Final-Presentation\SCMS\SoftwareConfigurationManagementDBApp\obj\Debug\SoftwareConfigurationManagementDBApp.application
