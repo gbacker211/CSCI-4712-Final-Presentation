@@ -64,7 +64,7 @@ namespace SoftwareConfigurationManagementDBApp
                 txtLname.Text = mUser.Lname;
                 txtUsername.Text = mUser.Username;
                 txtUsername.Enabled = false;
-                txtPassword.Text = mUser.Password;
+                txtPassword.Text = "Enter new password";
                 cmbAccessGroup.SelectedIndex = mUser.AccessGroup;
             }
         }
@@ -136,7 +136,7 @@ namespace SoftwareConfigurationManagementDBApp
                             Fname = txtFname.Text.Trim(),
                             Lname = txtLname.Text.Trim(),
                             Username = txtUsername.Text.Trim(),
-                            Password = txtPassword.Text.Trim(),
+                            Password = txtPassword.Text != "Enter new password" ? txtPassword.Text.Trim() : String.Empty,
                             AccessGroup = AccessLvl,
                             GroupID = Convert.ToInt32(cmdGroups.SelectedValue.ToString())
                         };
